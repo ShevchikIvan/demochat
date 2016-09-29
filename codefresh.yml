@@ -9,3 +9,10 @@ steps:
         type: push
         candidate: ${{build-step}}
         tag: ${{CF_BRANCH}}
+    unit-tests:
+        image: ${{build-step}}
+        fail-fast: false
+        working-directory : ${{initial-clone}}
+        commands:
+           - npm test
+           - echo $(date)
