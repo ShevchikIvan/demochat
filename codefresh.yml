@@ -3,5 +3,5 @@ steps:
     build-step:
         type: build
         dockerfile: Dockerfile
-        image-name: ShevchikIvan/demochat
+        image-name: superfresh/lets-chat
         tag: codefresh
