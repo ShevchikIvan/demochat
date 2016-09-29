@@ -7,5 +7,5 @@ steps:
         tag: codefresh
     push-to-dockerhub:
     type: push
-        candidate: ${{build-step-name}}
+        candidate: ${{build-step}}
         tag: latest
