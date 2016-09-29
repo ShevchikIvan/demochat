@@ -1,8 +1,7 @@
 version: '1.0'
 steps:
-
     build-step:
         type: build
         dockerfile: Dockerfile
-        image-name: shevchikivan/lets-chat
+        image-name: shevchikivan/demochat
         tag: codefresh
