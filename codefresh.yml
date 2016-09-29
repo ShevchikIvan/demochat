@@ -6,6 +6,6 @@ steps:
         image-name: superfresh/lets-chat
         tag: codefresh
     push-to-dockerhub:
-    type: push
+        type: push
         candidate: ${{build-step}}
         tag: latest
