@@ -20,6 +20,6 @@ steps:
         type: composition
         composition: demochat
         composition-candidates:
-        main:
-          image: nhoag/curl
-          command: bash -c "sleep 20 && curl http://app:5000/" | echo 'works'
+    main:
+        image: nhoag/curl
+        command: bash -c "sleep 20 && curl http://app:5000/" | echo 'works'
