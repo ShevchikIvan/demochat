@@ -3,7 +3,7 @@ steps:
     build-step:
         type: build
         dockerfile: Dockerfile
-        image-name: superfresh/lets-chat
+        image-name: ShevchikIvan/demochat
         tag: codefresh
     push to registry:
         type: push
